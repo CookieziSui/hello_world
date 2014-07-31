@@ -1,0 +1,55 @@
+/* 
+    Document   : login_second
+    Created on : Jan 23, 2013, 5:34:59 PM
+    Modified by: CC
+    Modified date: 2013-01-27
+    Author     : yangrui
+    Description:
+        Style for login
+*/
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+#div_form{
+    position: absolute;
+    width: 380px;
+    height:280px;
+    left: 50%;
+    margin-left: -190px;
+    top:50%;
+    margin-top: -140px;
+}
+
+#div_form form h3{
+    font-size: 26pt;
+    color: #f89406;
+}
+
+#user_name, #pass{
+    height: 50px;
+    /*text-align: center;*/
+    vertical-align: top;
+}
+
+#user_name input,#pass input{
+    height: 35px;
+}
+
+form a{
+    color: #f89406;
+    text-decoration: underline;
+}
+
+form button[type="submit"]{
+    margin-left: 4px;
+    height: 45px;
+    width: 72px;
+    margin-bottom: 11px;
+}
+
+form span{
+    margin-left: -170px;
+}

@@ -1,0 +1,86 @@
+/* 
+    Document   : horizontal_form
+    Created on : Jan 18, 2013, 5:29:01 PM
+    Author     : yangrui
+    Description:
+        Style for form.
+*/
+@charset "utf-8";
+form{
+    width: 98%;
+    margin: 1% 0 0 1%;
+}
+
+form fieldset{
+    width: 85%;
+    margin-left: 5%;
+
+}
+
+form legend{
+    border: none;
+    margin-left: 28%;
+    font-weight:  bold;
+    font-size: 15pt;
+    width: auto;
+}
+
+/*Style for labels*/
+.form-title{
+    font-weight: bold;
+}
+
+.form-title-new{
+    float: left;
+    font-weight: bold;
+    font-size: 9.5pt;
+    width:25%
+}
+
+#form_check{
+    margin-left: 39%;
+}
+button[type="submit"]{
+    margin-top: 0%;
+}
+
+.control-group{
+    margin-left: 20%;
+}
+
+/*
+*Author: CC
+*Date: 2013-01-23
+*Description: Special style for class: control-label,
+*By default, this class will add 5px for padding-top.
+*So add this to remove the padding-top
+*/
+.asset_operate .control-label{
+    padding-top: 0px;
+}
+
+/*
+End
+*/
+
+/*status keep the input level*/
+.top_status{
+    margin-top: 0.5%;
+}
+
+/*type keep the input level*/
+.top_type{
+    margin-top: 0.5%;
+}
+
+.required{
+    color: red;   
+}
+
+.checkbox_td{
+    width:2%;
+}
+
+.div-margin-left{
+    margin-left:5%;
+}

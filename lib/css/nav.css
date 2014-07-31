@@ -1,0 +1,24 @@
+#organization{
+    margin-left: -14%;
+    margin-top: 2%;
+}
+#tab_organization{
+	background-color: hsla(200, 100%, 40%,1);
+	color: hsla(0, 0%, 100%,1);
+	text-shadow: none;
+}
+#tab_subscription{
+	color: hsla(0, 0%, 100%,1);
+	text-shadow: none;
+}
+
+/*the name of nav position*/
+#left_nav,#right_nav{
+    float: left;
+}
+
+.nav_public{
+    width:auto;
+    overflow: visible;
+    color: #777777;
+}

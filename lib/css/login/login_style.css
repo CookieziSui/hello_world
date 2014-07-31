@@ -1,0 +1,277 @@
+/* remove codrops styles and reset the whole thing */
+#login_artical{
+    text-align: left;
+    margin-top: 15%;
+    padding: 0;
+    font-family: "Trebuchet MS","Myriad Pro",Arial,sans-serif;
+}
+
+/** fonts used for the icons **/ 
+@font-face {
+    font-family: 'FontomasCustomRegular';
+    src: url('fonts/fontomas-webfont.eot');
+    src: url('fonts/fontomas-webfont.eot?#iefix') format('embedded-opentype'),
+        url('fonts/fontomas-webfont.ttf') format('truetype'),
+        url('fonts/fontomas-webfont.svg#FontomasCustomRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+a.hiddenanchor{
+    display: none;
+}
+/** The login_model that will contain our two forms **/
+#login_model{
+    width: 60%;
+    right: 0px;
+    margin: 0px auto;	
+    width: 500px;
+    position: relative;	
+}
+/**** Styling the form elements **/
+
+/**** general text styling ****/
+#login_model a{
+    color: rgb(95, 155, 198);
+    text-decoration: underline;
+}
+
+#login_model h1{
+    font-size: 48px;
+    color:  hsla(193, 7%, 40%, 1.0);
+    padding: 2px 0 10px 0;
+    font-family: Nyala,"Calibri(TrueType)";
+    font-weight: bold;
+    text-align: center;
+    padding-bottom: 20px;
+}
+/** For the moment only webkit supports the background-clip:text; */
+
+#login_model h1:after{
+    content: ' ';
+    display: block;
+    width: 100%;
+    height: 2px;
+    margin-top: 5px;
+    background: -moz-linear-gradient(left, rgba(147,184,189,0) 0%, rgba(147,184,189,0.8) 20%, rgba(147,184,189,1) 53%, rgba(147,184,189,0.8) 79%, rgba(147,184,189,0) 100%); 
+    background: -webkit-gradient(linear, left top, right top, color-stop(0%,rgba(147,184,189,0)), color-stop(20%,rgba(147,184,189,0.8)), color-stop(53%,rgba(147,184,189,1)), color-stop(79%,rgba(147,184,189,0.8)), color-stop(100%,rgba(147,184,189,0))); 
+    background: -webkit-linear-gradient(left, rgba(147,184,189,0) 0%,rgba(147,184,189,0.8) 20%,rgba(147,184,189,1) 53%,rgba(147,184,189,0.8) 79%,rgba(147,184,189,0) 100%); 
+    background: -o-linear-gradient(left, rgba(147,184,189,0) 0%,rgba(147,184,189,0.8) 20%,rgba(147,184,189,1) 53%,rgba(147,184,189,0.8) 79%,rgba(147,184,189,0) 100%); 
+    background: -ms-linear-gradient(left, rgba(147,184,189,0) 0%,rgba(147,184,189,0.8) 20%,rgba(147,184,189,1) 53%,rgba(147,184,189,0.8) 79%,rgba(147,184,189,0) 100%); 
+    background: linear-gradient(left, rgba(147,184,189,0) 0%,rgba(147,184,189,0.8) 20%,rgba(147,184,189,1) 53%,rgba(147,184,189,0.8) 79%,rgba(147,184,189,0) 100%); 
+}
+
+#login_model p{
+    margin-bottom:5px;
+}
+#login_model p:first-child{
+    margin: 0px;
+}
+#login_model label{
+    font-family: Nyala,"Calibri(TrueType)";
+    color: rgb(64, 92, 96);
+    position: relative;
+}
+
+/**** advanced input styling ****/
+/* placeholder */
+::-webkit-input-placeholder  { 
+    color: rgb(190, 188, 188); 
+    font-style: italic;
+}
+input:-moz-placeholder,
+textarea:-moz-placeholder{ 
+    color: rgb(190, 188, 188);
+    font-style: italic;
+} 
+input {
+    outline: none;
+}
+
+/* all the input except submit and checkbox */
+#login_model input:not([type="checkbox"]){
+    width: 92%;
+    font-size: 16px;
+    margin-top: 0px;
+    padding:10px 5px 10px 32px;	
+    border: 1px solid hsla(189, 6%, 45%, 0.7);
+    -webkit-appearance: textfield;
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing : content-box;
+    box-sizing : content-box;
+    -webkit-border-radius: 1px;
+    -moz-border-radius: 1px;
+    border-radius: 1px;
+    -webkit-box-shadow: 0px 0px 0px 0px rgba(168, 168, 168, 0.6) inset;
+    -moz-box-shadow: 0px 0px 0px 0px rgba(168, 168, 168, 0.6) inset;
+    box-shadow: 0px 0px 0px 0px rgba(168, 168, 168, 0.6) inset;
+    -webkit-transition: all 0.2s linear;
+    -moz-transition: all 0.2s linear;
+    -o-transition: all 0.2s linear;
+    transition: all 0.2s linear;
+}
+
+#login_model input:not([type="checkbox"]):active,
+#login_model input:not([type="checkbox"]):focus{
+    border: 1px solid hsla(189, 6%, 45%, 1.0);
+    background: rgba(238, 236, 240, 0.2);	
+    -webkit-box-shadow:  inset;
+    -moz-box-shadow:  inset;
+    box-shadow:  inset;
+} 
+
+/** the magic icon trick ! **/
+[data-icon]:after {
+    content: attr(data-icon);
+    font-family: 'FontomasCustomRegular';
+    color: rgb(106, 159, 171);
+    position: absolute;
+    left: 10px;
+    top: 35px;
+    width: 30px;
+}
+
+/*styling both submit buttons */
+#login_model p.button input{
+    border-radius:5px; 
+    width: 30%;
+    cursor: pointer;	
+    background:  hsla(90, 100%, 25%, 0.1);
+    padding: 8px 5px;
+    font-family: Nyala,"Calibri(TrueType)";
+    color: #405C60;
+    font-size: 24px;	
+    border: 1px solid rgb(28, 108, 122);	
+    margin-bottom: 0px;	
+
+
+
+
+}
+#login_model p.button input:hover{
+    background: hsla(90, 100%, 25%, 0.6);
+}
+#login_model p.button input:active,
+#login_model p.button input:focus{
+    background: rgb(40, 137, 154);
+    position: relative;
+    top: 1px;
+    border: 1px solid rgb(12, 76, 87);	
+    -webkit-box-shadow:  inset;
+    -moz-box-shadow:  inset;
+    box-shadow: inset;
+}
+p.login.button,
+p.signin.button{
+    text-align: right;
+    margin: 5px 0;
+}
+
+
+/*styling the links to change from one form to another */
+
+p.change_link{
+    margin-top: 24px;
+    position: absolute;
+    color: rgb(127, 124, 124);
+    left: 0px;
+
+    width: 440px;
+    padding: 17px 30px 20px 30px;
+    font-size: 16px	;
+    text-align: right;
+    border-top: 1px solid rgb(219, 229, 232);
+    -webkit-border-radius: 0 0  5px 5px;
+    -moz-border-radius: 0 0  5px 5px;
+    border-radius: 0 0  5px 5px;
+    background: rgb(225, 234, 235);
+
+}
+a{
+    text-decoration: none;
+}
+.to_register {
+    float: left;
+    display: inline-block;
+    font-weight: bold;
+    margin-right: 100px;
+    padding: 2px 1px;
+    color: rgb(29, 162, 193);
+    margin-left: 0px;
+    text-decoration: none;
+
+}
+.to_register:hover {
+    color: rgb(57, 191, 215);
+    background: rgb(247, 247, 247);
+
+}
+.to_register:active{
+    position: relative;
+    top: 1px;
+}
+/** Styling both forms **/
+#register, 
+#login{
+    position: absolute;
+    top: 0px;
+    width: 88%;	
+    padding: 18px 6% 18px 6%;
+    margin: 0 0 35px 0;
+    background: hsla(90, 100%, 25%, 0.1); 
+    border: 1px solid hsla(90, 100%, 25%, 0.6);
+
+
+}
+#register{	
+    z-index: 21;
+    opacity: 0;
+}
+#login{
+    border-radius: 10px;
+    z-index: 22;
+}
+#toregister:target ~ #login_model #register,
+#tologin:target ~ #login_model #login{
+    z-index: 22;
+    -webkit-animation-name: fadeInLeft;
+    -moz-animation-name: fadeInLeft;
+    -ms-animation-name: fadeInLeft;
+    -o-animation-name: fadeInLeft;
+    animation-name: fadeInLeft;
+    -webkit-animation-delay: .1s;
+    -moz-animation-delay: .1s;
+    -o-animation-delay: .1s;
+    -ms-animation-delay: .1s;
+    animation-delay: .1s;
+}
+#toregister:target ~ #login_model #login,
+#tologin:target ~ #login_model #register{
+    -webkit-animation-name: fadeOutLeftBig;
+    -moz-animation-name: fadeOutLeftBig;
+    -ms-animation-name: fadeOutLeftBig;
+    -o-animation-name: fadeOutLeftBig;
+    animation-name: fadeOutLeftBig;
+}
+
+/** the actual animation, credit where due : http://daneden.me/animate/ ***/
+.animate{
+    -webkit-animation-duration: 1s;
+    -webkit-animation-timing-function: ease;
+    -webkit-animation-fill-mode: both;
+
+    -moz-animation-duration: 1s;
+    -moz-animation-timing-function: ease;
+    -moz-animation-fill-mode: both;
+
+    -o-animation-duration: 1s;
+    -o-animation-timing-function: ease;
+    -o-animation-fill-mode: both;
+
+    -ms-animation-duration: 1s;
+    -ms-animation-timing-function: ease;
+    -ms-animation-fill-mode: both;
+
+    animation-duration: 1s;
+    animation-timing-function: ease;
+    animation-fill-mode: both;
+}

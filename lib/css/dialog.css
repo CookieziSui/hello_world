@@ -1,0 +1,35 @@
+/* 
+    Document   : dialog
+    Created on : 2012-10-12, 8:55:38
+    Author     : Administrator
+    Description:
+        Purpose of the stylesheet follows.
+*/
+.risign{
+    float: left;
+    width:300px;
+    height: 30px;
+}
+.resign input{   
+    margin-left: 30px;
+}
+.reason_checkbox input[checkbox]{
+    float: left;
+}
+#name{
+    margin-left: 75px;
+}
+.reason_cb{
+    width: 130px;
+    float: left;
+    margin-left: 30px;
+}
+.resign_button{
+    margin-left: 140px;
+}
+.resign_reason{
+    height: 170px;
+}
+.resign textarea{
+    margin-left: 48px;
+}

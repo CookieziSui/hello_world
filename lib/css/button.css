@@ -1,0 +1,94 @@
+/* 
+    Document   : button
+    Created on : Jun 25, 2012, 3:39:38 PM
+    Author     : zhangchengchong
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+/*
+*Fake button, actually, this is a <a>
+*/
+
+.fake_button{
+    float: left;
+    width: 36px;
+    height: 1.0em;
+    -webkit-box-shadow:hsla(0,0,0%,0.2) 0 1px 0 0;
+    -moz-box-shadow:hsla(0,0,0%,0.2) 0 1px 0 0;
+    box-shadow:hsla(0,0,0%,0.2) 0 1px 0 0;
+    border-bottom-color:hsla(0, 0%, 20%, 1.0);
+    border:0px solid hsla(197, 77%, 65%, 1.0);
+    background-color:hsla(197, 77%, 71%, 1.0);
+    text-align: center;
+    padding:5px;
+    cursor: pointer;
+    border-top: 0px solid #97f79d;
+    background: #65d66c;
+    background: -webkit-gradient(linear, left top, left bottom, from(#36ba59), to(#65d66c));
+    background: -webkit-linear-gradient(top, #36ba59, #65d66c);
+    background: -moz-linear-gradient(top, #36ba59, #65d66c);
+    background: -ms-linear-gradient(top, #36ba59, #65d66c);
+    background: -o-linear-gradient(top, #36ba59, #65d66c);
+    padding: 6px 16px 9px 16px;
+    color: #060808;
+    font-size: 1.3em;
+    font-family: Nyala,"Calibri(TrueType)";
+    text-decoration: none;
+    vertical-align: middle;
+}
+
+.fake_button  a:link {color: hsla(0, 0%, 0%, 1.0);}
+.fake_button  a:visited {color: hsla(0, 0%, 0%, 1.0);}
+.fake_button a:hover {color: hsla(0, 0%, 0%, 1.0);}
+
+.fake_submit{
+    border-bottom-color:hsla(0, 0%, 20%, 1.0);
+    border:0px solid hsla(197, 77%, 65%, 1.0);
+    background-color:hsla(197, 77%, 71%, 1.0);
+    padding:5px;
+    cursor: pointer;
+    border-top: 0px solid #97f79d;
+    background: #65d66c;
+    background: -webkit-gradient(linear, left top, left bottom, from(#36ba59), to(#65d66c));
+    background: -webkit-linear-gradient(top, #36ba59, #65d66c);
+    background: -moz-linear-gradient(top, #36ba59, #65d66c);
+    background: -ms-linear-gradient(top, #36ba59, #65d66c);
+    background: -o-linear-gradient(top, #36ba59, #65d66c);
+    padding: 4px 16px 6px 16px;
+    color: #060808;
+    font-size: 1.3em;
+    font-family: Nyala,"Calibri(TrueType)";
+    vertical-align: middle;
+}
+
+input[type=submit],input[type=reset]  {
+    min-width: 45px;
+    height:1.72em;
+    border-bottom-color:hsla(0, 0%, 20%, 1.0);
+    border:0px solid hsla(197, 77%, 65%, 1.0);
+    background-color:hsla(197, 77%, 71%, 1.0);
+    cursor: pointer;
+    border-top: 0px solid #97f79d;
+    background: #65d66c;
+    background: -webkit-gradient(linear, left top, left bottom, from(#36ba59), to(#65d66c));
+    background: -webkit-linear-gradient(top, #36ba59, #65d66c);
+    background: -moz-linear-gradient(top, #36ba59, #65d66c);
+    background: -ms-linear-gradient(top, #36ba59, #65d66c);
+    background: -o-linear-gradient(top, #36ba59, #65d66c);
+    padding: 0px 10px 0px 10px;
+    color: #060808;
+    font-size: 1.3em;
+    font-family: Nyala,"Calibri(TrueType)";
+    vertical-align: middle;
+}
+.form_creation input[type=submit] {
+    margin-left:99%;
+}
+
+.form_creation_middle input[type=submit] {
+    margin-left:99%;
+}
+.form_creation_full_input input[type=submit] {
+    margin-left:99%;
+}

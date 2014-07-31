@@ -1,0 +1,74 @@
+/* 
+    Document   : assign_task
+    Created on : Jan 16, 2013, 7:45:10 PM
+    Author     : yangrui
+    Description:
+        For assign_task this page definition style
+*/
+
+#div_form_table,#group_button{
+    margin-left: 1%;
+}
+
+#content_assist{
+    width: 99%;
+    margin: 1% 0 0 1%;
+}
+.task_assign_father .click_me{
+    cursor: pointer;
+}
+
+/*
+*Style for multi select in task update
+*/
+.column_all_bugs select{
+    height: 300px;
+}
+
+.iteration_info img{
+    max-width:none;
+}
+.td-width{
+    width:5%
+}
+.td-width-1{
+    width:10%
+}
+.td-width-2{
+    width:12%
+}
+.td-width-3{
+    width:48%
+}
+.td-width-4{
+    width:22%
+}
+.td-width-5{
+    width:8%
+}
+.td-width-6{
+    width:2%
+}
+.td-width-7{
+    width:15%
+}
+.td-width-8{
+    width:18%
+}
+.td-width-9{
+    width:27%
+}
+.td-width-10{
+    width:73%
+}
+.update_form-title{
+    margin-left: 20%;
+    margin-top: 5%;
+}
+.td-th{
+    color:#24A0DA;
+    font-size: 9pt;
+    font-weight: bold;
+    line-height: 20px;
+    text-align: center
+}

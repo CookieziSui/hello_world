@@ -1,0 +1,36 @@
+/* 
+    Document   : csi
+    Created on : Dec 9, 2012, 8:03:25 PM
+    Author     : ccz_zcc
+    Description:
+        Style for css
+*/
+.csi_header{
+    margin-left:40%;
+    font-size: 2em;
+}
+#csi_general,#csi_detail,#csi_level,#csi_comment{
+    margin-left:10%;
+    margin-right: 0;
+    width: 60%;
+}
+.csi_item{
+   float: left;
+    height:30px;
+    width: 40%;
+    margin-top: 5px;
+    font-weight: bold;
+    font-size: 1.2em;
+}
+.csi_value{
+    float: left;
+    width: 60%;
+    height:30px;
+    margin-top: 5px;
+    font-size: 1em;
+}
+hr{
+    margin-top: 6px;
+    width:99%;
+    margin-bottom: 6px;
+}

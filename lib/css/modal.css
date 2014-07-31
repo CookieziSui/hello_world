@@ -1,0 +1,34 @@
+@charset "utf-8";
+
+form legend{
+    border: none;
+    margin-left: 20%;
+    font-weight:  bold;
+    font-size: 20px;
+    width: auto;
+}
+.modal-label{
+    font-size: 15px;
+    font-weight: normal;
+    line-height: 15px;
+    margin-bottom: 5px;
+}
+.control-group{
+    margin-left: 120px;
+}
+.controls-label {
+    float: left;
+    padding-top: 5px;
+    text-align: left;
+}
+.multi_label{
+    overflow-x:auto;
+    word-break: break-all; 
+    word-wrap: break-word;
+    margin-right: 60px;
+    line-height: 20px;
+}
+
+.note-btn{
+    margin-left: 10%;
+}

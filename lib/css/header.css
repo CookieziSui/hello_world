@@ -1,0 +1,98 @@
+@charset "utf-8";
+
+header{
+    width: 100%;
+    height: 50px;
+    position: relative;
+}
+
+
+#SYSTEM-NAME,#user_center{
+    float: left;
+}
+
+#SYSTEM-NAME + div{
+    margin-top: 0.7%;
+}
+#SYSTEM-NAME-PUB{
+    margin-top: 0%;
+    width: 100%;
+}
+
+.pull-right{
+    float: right;
+    margin-right: 2%;
+}
+
+.pull-right > div{
+    float: left;
+}
+
+#user_center ul li:nth-of-type(1){
+    list-style-type: none;
+}
+
+#user_center{
+    margin-top: 5px;
+}
+
+#logo_user{
+    border-right: 1px solid black;
+    padding-right: 0.1em;
+    margin-bottom: 0.3em;
+}
+
+#logo_user img{
+    margin-right: 0.3em;
+}
+
+#logo_user + div a img{
+    margin-left: 0.4em;
+}
+
+/*style for user name */
+.h3{
+    margin-right: 0.37em;
+    color: #0077B3;
+    font-family: "Microsoft YaHei";
+}
+#snow_header {
+    background-image: url(/mp/lib/image/snow_bk.gif)!important;
+    background-repeat:repeat-x !important;
+    /*background-size: 100%;*/
+    background-position: left bottom;
+    border-bottom: 1px #fff solid;
+}
+#spring_header {
+    background-image: url(/mp/lib/image/spring.jpg)!important;
+    background-repeat:repeat-x !important;
+    background-position: left bottom;
+    border-bottom: 1px #fff solid;
+}
+#snow_header:after {
+    background: url(/mp/lib/image/snow_n.png) transparent repeat-x;
+    bottom: -2px;
+    content: '';
+    display: inline-block;
+    float: left;
+    height: 10px;
+    left: 0;
+    position: absolute;
+    width: 100%;
+    z-index: 150;
+}
+.header_font{
+    color:white;
+}
+#logo_user{
+    border-right: 1px solid white;
+    margin-top: 0.1em;
+}
+.icon-large{
+    font-size: 28px;
+    color:white;
+    padding-right: 0.5em;
+    margin-top: 0.3em;
+    margin-bottom: 0.3em;
+    margin-left: 0.1em
+}

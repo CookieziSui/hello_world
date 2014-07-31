@@ -1,0 +1,80 @@
+/* 
+    Document   : device
+    Created on : Apr 24, 2013, 8:06:06 PM
+    Author     : yangrui
+    Description:
+        Style for device pages.
+*/
+
+#add{
+    margin: 0.5% 0.1% 0.5% 0;
+    float: left;
+    width: 3%;
+}
+#label_attention{
+    margin: 0.5% 0.1% 0.5% 0;
+    float: left;
+    width: 35%;
+}
+
+#div_search{
+    margin: 0.5% 0.1% 0.5% 0;
+}
+.filter_content{
+    margin-left: 58%;
+}
+.pub_filter_content{
+    margin-left: 30%;
+}
+#div_table{
+    margin: 0;
+}
+
+/*the dialog is placed in the middle*/
+#update_device,#add_device{
+    top: 37%;
+}
+.modal{
+    margin: -250px 0 0 -280px;
+}
+.modal-body{
+    max-height: 600px;
+}
+.modal-footer{
+    padding: 0;
+    margin-top: -1%;
+}
+/*in the borrow dialog*/
+.modal-body-text,.confirm_button{
+    float: left;
+}
+.modal-body-text{
+    text-align: center;
+}
+.confirm_button{
+    margin: 1% 0 0 2%;
+}
+
+/*in the add or update dialog*/
+.help_text{
+    margin-top: 1%;
+}
+
+.modal-label{
+    font-size: 15px;
+    font-weight: normal;
+    line-height: 10px;
+    margin-bottom: 5px;
+    margin-left: 80px
+}
+.control_item{
+    float: left;
+    text-align: left;
+    margin-left: 20px;
+    font-size: 15px;
+    line-height: 10px;
+    margin-bottom: 5px;
+}
+.modal_radio{
+    
+}

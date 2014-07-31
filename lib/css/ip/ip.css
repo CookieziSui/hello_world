@@ -1,0 +1,50 @@
+/* 
+    Document   : static_ip_assignment
+    Created on : Feb 4, 2013, 8:01:12 PM
+    Author     : yangrui
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+/*add line for last td*/
+#left_table{
+    border-right: 1px solid #ccc;
+}
+
+/*style for two table*/
+#left_table,#right_table{
+    width: 50%;
+    height: auto;
+    margin: 0 0 1%;
+    float: left;
+}
+
+
+/*create ip  button*/
+#add_button{
+    float: left;
+    margin: 1% auto auto auto;
+}
+
+/*three select*/
+#select_ip{
+    float: left;
+    margin: 1% auto auto;
+}
+
+#search-box{
+    margin-top: -4.2%;
+}
+
+table thead tr th{
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+

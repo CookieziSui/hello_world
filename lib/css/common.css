@@ -1,0 +1,67 @@
+/* 
+    Document   : base
+    Created on : Jan 17, 2013, 10:28:08 AM
+    Author     : yangrui
+    Description:
+        Purpose of the stylesheet follows.
+*/
+@charset "utf-8";
+
+/*@font-face{
+    font-family: "Open Sans Regular";
+    src:url("3rd_party/font/opensans-regular-webfont.ttf");
+    font-weight: 400;
+}
+
+body{
+    font-family: "Open Sans Regular",Aria;
+}*/
+
+header{
+    margin-top: -2em;
+}
+
+nav{
+    /*margin-top: 3px;*/
+}
+
+aside,article{
+    float: left;
+}
+
+article{
+    margin: 0 0 0 1%;
+}
+
+a:hover{
+    color: #4F1ACB;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.chinese{
+    font-family: "Microsoft YaHei";
+}
+
+/*The purpose of a style*/
+.chinese_title{
+    color: #f89406;
+    font-size: 15px;
+    font-weight:bold;
+}
+
+/*style for system_maintenance  page*/
+#system_error{
+    margin: 15% 25%;
+    width: 40%;
+    padding: 5%;
+}
+
+#system_error strong{
+    color: #f89406;
+    font-size: 1.3em;
+}
+
+#system_error p{
+    font-size: 15pt;
+}

@@ -1,0 +1,75 @@
+/* 
+    Document   : priviledge
+    Created on : Jan 10, 2013, 9:56:40 AM
+    Author     : yangrui
+    Description:
+        For assign_privilege this page definition style
+*/
+
+
+form{
+    display: block;
+    margin-left: 2%;
+    padding: 2%;
+    float: left;
+    width: 93%;
+    border: 1px solid #ddd;
+}
+
+form{
+    margin-left: 1%;
+}
+
+form div .span11{
+    margin-bottom: 0.5%;
+}
+
+form #org{
+    display: block;
+    margin-top: 1%;
+    padding: 1%;
+    float: left;
+    width: 98%;
+    border: 1px solid #ddd;
+}
+
+form #org div input{
+    float: left;
+/*    margin-left: 5%;*/
+    font-size: 10pt;
+}
+
+form  button{
+    margin-top: 1%;
+    margin-left: 90%;
+}
+
+#org .left_top, #org .left_bottom{
+    margin-left: 1%;
+}
+
+#org .right_top, #org .right_bottom{
+    margin-left: 2%;
+}
+
+#bug_manager{
+    float: left;
+}
+
+#bug_manager > div {
+    float: left;
+}
+
+.div_radio{
+    margin-left: 2%;
+}
+.div_radio input[type=radio]{
+    position: relative;
+    margin-bottom: 6px;
+    margin-left: 10px;
+    margin-right: 1px;
+}
+
+.row-fluid div:nth-of-type(1){
+    font-size:1.15em;
+}

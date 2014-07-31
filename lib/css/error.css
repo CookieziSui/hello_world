@@ -1,0 +1,60 @@
+/* 
+    Document   : error
+    Created on : Jan 22, 2013, 10:04:58 AM
+    Author     : yangrui
+    Description:
+        Style for error.
+*/
+
+/*style for login_error page*/
+#div_error{
+    width: 100%;
+    margin: 2% auto auto;
+}
+
+#div_error div h3,.error_id{
+    /*    font-weight: 300;
+        font-size: 2em;*/
+    letter-spacing: -1px;
+    line-height: 48px;
+    color: #BC1C48;
+}
+
+.error-text{
+    color: #BC1C48;
+}
+
+.error-text + p{
+    /*margin: 5px auto auto 5px;*/
+}
+
+#div_error ul li{
+    list-style: none;
+}
+.error_id{
+    font-size: 17pt;
+}
+
+/*END*/
+
+/*.alert-error{
+    margin: 24% 10% 24% 10%;
+    padding: 1%;
+}
+*/
+#error{
+    width: 80%;
+    margin: 24% 10% 24% 10%;
+    padding: 1%;
+    text-align: center;
+}
+
+#error_text{
+    font-size: 1.5em;
+}
+
+/*end*/
+
+
+
+

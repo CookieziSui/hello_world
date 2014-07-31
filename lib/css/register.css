@@ -1,0 +1,33 @@
+/* 
+    Document   : register
+    Created on : Jan 31, 2013, 4:23:30 PM
+    Author     : yangrui
+    Description:
+         Styles for register.
+*/
+#register_form{
+    margin-left: 2%;
+    margin-right: 5%;
+    width: 90%;
+}
+#register_form legend{
+    margin-left: 39%;
+    color: #f89406;
+}
+
+#register_form fieldset{
+    width: 100%;
+    margin: 1% 0%;
+}
+
+#register_form fieldset .control-group{
+    margin:0.5% auto auto 29%; 
+}
+
+#register_form legend + div:first-of-type{
+    margin-top: 1%;
+}
+
+.help-inline{
+    color: red;
+}

@@ -1,0 +1,35 @@
+.project_name{
+    min-width: 50%;
+}
+.block_main_numbers{
+  height: 30px;
+  font-size: 2em;
+}
+.block_content_table{
+  margin-top: 10px;
+  margin-left: 2%;
+}
+.block_depreciation_numbers tr{
+  height: 30px;
+}
+.t-num{
+  font-size: 1.5em;
+  font-family: Helvetica, Arial, sans-serif;
+}
+.t-item{
+  font-size: 1.1em;
+  color: #000;
+  font-family: "Microsoft YaHei";
+}
+.project{
+    position: relative;
+    float: left;
+    margin-left: 2px;
+    margin-right: 8px;
+    margin-bottom: 8px;
+    width: 220px;
+    height: 180px;
+    border:1px solid #cccccc;
+    background-color: #f9f9f9;
+    font-family: Helvetica, Arial, sans-serif;
+}

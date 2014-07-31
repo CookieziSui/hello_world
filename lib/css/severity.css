@@ -1,0 +1,27 @@
+/* 
+    Document   : severity
+    Created on : Sep 27, 2012, 5:13:03 PM
+    Author     : zhangchengchong
+    Description:
+        css for severity: Critical, Normal, Warn, Ignore...
+*/
+
+.critical{
+    background-color: hsla(16, 80%, 66%, 0.8);
+}
+.warn{
+    background-color: hsla(60, 80%, 77%, 0.8);
+}
+.normal{
+    background-color: hsla(102, 80%, 72%, 0.8);
+}
+.top{
+    color:hsla(213, 100%, 38%, 0.8);
+    font-weight: bold;
+    font-size: 1.2em;
+}
+.worst{
+    color:hsla(32, 100%, 48%, 0.8);
+    font-weight: bold;
+    font-size: 1.2em;
+}

@@ -1,0 +1,106 @@
+/* 
+    Document   : bug
+    Created on : Jul 20, 2012, 1:59:11 AM
+    Author     : CC
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+#basic_bug_note{
+    float: left;
+    margin-top: 30px;
+    width: 100%;
+    margin-left: 0px;
+}
+#basic_bug_info{
+    height: auto;
+    width: 100%;
+    float:left;
+}
+.view_bug_center{
+    margin-bottom: 10px;
+}
+
+#bug_header{
+    margin-top: 2%;
+    width: 100%;
+    height: 50px;
+    text-align: center;
+}
+
+div .all_info{
+
+    width:500px;
+    margin-left: 20%;
+    height: auto;
+
+}
+.all_info input[type=text]{
+    width: 60%;
+    height: 70%;
+    margin-top: 0px;
+    padding:2px 1px 2px 5px;		
+    border: 1px solid hsla(189, 6%, 45%, 0.7);
+    float:right;
+
+    -webkit-box-shadow: 0px 0px 0px 0px rgba(168, 168, 168, 0.6) inset;
+    -moz-box-shadow: 0px 0px 0px 0px rgba(168, 168, 168, 0.6) inset;
+    box-shadow: 0px 0px 0px 0px rgba(168, 168, 168, 0.6) inset;
+
+
+}
+.all_info input[type=date]{
+    width: 60%;
+    height: 70%;
+    margin-top: 0px;
+    padding:2px 1px 2px 5px;	
+    border: 1px solid hsla(189, 6%, 45%, 0.7);
+    float:right;
+
+    -webkit-box-shadow: 0px 0px 0px 0px rgba(168, 168, 168, 0.6) inset;
+    -moz-box-shadow: 0px 0px 0px 0px rgba(168, 168, 168, 0.6) inset;
+    box-shadow: 0px 0px 0px 0px rgba(168, 168, 168, 0.6) inset;
+
+}
+lable {
+    font-size: 18px;
+    margin: 30px;
+    color: rgb(64, 92, 96);
+    position: relative;
+}
+
+.all_info textarea{
+    width: 60%;
+    height: 70px;
+    margin-top: 0px;
+    padding:2px 1px 2px 5px;		
+    border: 1px solid hsla(189, 6%, 45%, 0.7);
+    float:right;
+
+    -webkit-box-shadow: 0px 0px 0px 0px rgba(168, 168, 168, 0.6) inset;
+    -moz-box-shadow: 0px 0px 0px 0px rgba(168, 168, 168, 0.6) inset;
+    box-shadow: 0px 0px 0px 0px rgba(168, 168, 168, 0.6) inset;
+
+}
+.all_info .bug_textarea{
+    height: 70px;
+}
+.all_info p{
+    height: 40px;
+}
+
+#bug_existence,#bug_id{
+    float: left;
+}
+.error_bug_exist{
+    color: #F00;
+}
+#update_bug{
+    float: left;
+    height: 32px;
+    margin-top: 6px;
+    margin-left: 0px;
+}
+#add_note{
+    margin-left: 20px;
+}
